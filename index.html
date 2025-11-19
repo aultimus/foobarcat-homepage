@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foobarcat</title>
+    <title>Foobarcat – Matthew Ault</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,29 +22,33 @@
             margin-bottom: 20px;
         }
         header img {
-            width: 300px;
+            width: 260px;
             height: auto;
             margin-bottom: 10px;
         }
         header h1 {
-            font-size: 3em;
+            font-size: 2.6em;
             margin: 0;
-            letter-spacing: 0.1em;
+            letter-spacing: 0.05em;
         }
         header p {
-            font-size: 1.2em;
+            font-size: 1.15em;
             color: #bbbbbb;
+            margin-top: 8px;
         }
         nav ul {
             list-style: none;
             padding: 0;
             display: flex;
-            gap: 20px;
+            gap: 22px;
+            flex-wrap: wrap;
+            justify-content: center;
         }
         nav ul li a {
             text-decoration: none;
             color: #61dafb;
             transition: color 0.3s;
+            font-size: 1em;
         }
         nav ul li a:hover {
             color: #21a1f1;
@@ -52,17 +56,27 @@
     </style>
 </head>
 <body>
+
     <header>
         <img src="logo.png" alt="Foobarcat Logo">
-        <p>Spelunking in Software</p>
+        <h1 style="font-size: 1.6em; margin: 8px 0 0 0; font-weight: 500;">Matthew Ault</h1>
+        <p>Systems, Software, and the Weird Incentives in Between</p>
     </header>
+
     <nav>
         <ul>
-            <li><a href="https://blog.foobarcat.com">Blog</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="https://blog.foobarcat.com">Writing</a></li>
+            <li><a href="/consulting/">Consulting</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/contact/">Contact</a></li>
+
+            <!-- legacy links preserved -->
             <li><a href="https://foobarcat.blogspot.com">Old Blog</a></li>
             <li><a href="https://baconometer.foobarcat.com">Baconometer</a></li>
-            <li><a href="https://github.com/aultimus">Github</a></li>
+            <li><a href="https://github.com/aultimus">GitHub</a></li>
         </ul>
     </nav>
+
 </body>
 </html>
