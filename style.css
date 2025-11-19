@@ -1,0 +1,11 @@
+/* Universal link colours */
+a,
+a:visited {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8fe9ff;
+  text-decoration: underline;
+}
