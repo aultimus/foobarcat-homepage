@@ -38,14 +38,54 @@
         nav ul li a:hover {
             color: #21a1f1;
         }
-        h1 {
-            margin-top: 1.8rem;
-            margin-bottom: 0.5rem;
+
+        /* New overall layout for About */
+        .about-layout {
+            display: flex;
+            align-items: flex-start;
+            gap: 28px;
+            margin-top: 2rem;
+        }
+
+        .about-photo {
+            flex: 0 0 auto;
+            max-width: 400px; /* matches your exported width */
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 14px rgba(0,0,0,0.35);
+            margin-top: -10px; /* adjust to taste: -10 to -18px */
+        }
+
+        .about-column {
+            flex: 1;
+            min-width: 320px;
+        }
+
+        .about-column h1 {
+            margin-top: 0;
+            margin-bottom: 0.75rem;
             font-size: 2rem;
         }
+
+
         p {
             line-height: 1.6;
             color: #dddddd;
+            margin-top: 0;
+            margin-bottom: 0.9rem;
+        }
+
+        @media (max-width: 700px) {
+            .about-layout {
+                flex-direction: column;
+            }
+            .about-photo {
+                max-width: 100%;
+            }
+            .about-column {
+                min-width: auto;
+            }
         }
     </style>
 </head>
@@ -62,18 +102,24 @@
         </nav>
 
         <main>
-            <h1>About</h1>
-                <p>I’m Matthew Ault. I work at the intersection of cognition, systems, and engineering — exploring how complex structures behave, drift, and can be understood through clear, first-principles models.</p>
-            <p>
-                My background is in distributed systems, ingestion pipelines, and real-time media platforms. I’ve spent the last decade building and debugging large-scale systems in high-agency startup and scale-up environments, where the interaction between engineering, incentives, and organisational structure becomes visible.
-            </p>
-            <p>
-                In recent years my work has expanded beyond software. I apply systems engineering to computational, human, and organisational behaviour — mapping structures, diagnosing root causes, and understanding how change actually happens. This is forming the basis of a broader project I call Cognitive Systems Engineering.
-            <p>
-                Foobarcat is my personal home on the internet. Here I write, experiment with ideas,
-                and occasionally help teams untangle the technical and organisational knots that
-                make engineering harder than it needs to be.
-            </p>
+            <div class="about-layout">
+                <img class="about-photo" src="../about.jpg" alt="Portrait of Matthew Ault" loading="lazy">
+                <div class="about-column">
+                    <h1>About</h1>
+                    <p>I’m Matthew Ault. I work at the intersection of cognition, systems, and engineering — exploring how complex structures behave, drift, and can be understood through clear, first-principles models.</p>
+                    <p>
+                        My background is in distributed systems, ingestion pipelines, and real-time media platforms. I’ve spent the last decade building and debugging large-scale systems in high-agency startup and scale-up environments, where the interaction between engineering, incentives, and organisational structure becomes visible.
+                    </p>
+                    <p>
+                        In recent years my work has expanded beyond software. I apply systems engineering to computational, human, and organisational behaviour — mapping structures, diagnosing root causes, and understanding how change actually happens. This is forming the basis of a broader project I call Cognitive Systems Engineering.
+                    </p>
+                    <p>
+                        Foobarcat is my personal home on the internet. Here I write, experiment with ideas,
+                        and occasionally help teams untangle the technical and organisational knots that
+                        make engineering harder than it needs to be.
+                    </p>
+                </div>
+            </div>
         </main>
     </div>
 </body>
