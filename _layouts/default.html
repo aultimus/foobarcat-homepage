@@ -110,12 +110,6 @@
     </main>
   </div>
 
-  <footer class="site-footer">
-    {{ site.author.name }}
-    {% if site.author.linkedin %}
-      · <a href="{{ site.author.linkedin }}">LinkedIn</a>
-    {% endif %}
-    · &copy; {{ site.time | date: "%Y" }}
-  </footer>
+  {% include footer.html %}
 </body>
 </html>

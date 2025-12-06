@@ -65,6 +65,21 @@
             margin-bottom: 1.5rem;
         }
 
+        footer.site-footer {
+            margin-top: 2rem;
+            font-size: 0.85rem;
+            color: #888888;
+            text-align: center;
+        }
+        footer.site-footer a {
+            color: #61dafb;
+            text-decoration: none;
+        }
+        footer.site-footer a:hover {
+            color: #21a1f1;
+            text-decoration: underline;
+        }
+
         @media (max-width: 480px) {
             body {
                 min-height: auto;
@@ -129,10 +144,6 @@
         </main>
     </div>
 
-    <footer style="margin-top: 2rem; font-size: 0.85rem; color: #888888; text-align: center;">
-        Matthew Ault
-        · <a href="https://www.linkedin.com/in/m-ault/" style="color: #61dafb; text-decoration: none;">LinkedIn</a>
-        · &copy; {{ site.time | date: "%Y" }}
-    </footer>
+    {% include footer.html %}
 </body>
 </html>
