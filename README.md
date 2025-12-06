@@ -6,7 +6,7 @@ Github Pages for my foobarcat.com homepage
 From the project root, you can serve the site with Python's built-in HTTP server:
 
 ```bash
-python3 -m http.server 8000
+bundle exec jekyll serve
 ```
 
-Then open `http://localhost:8000/` in your browser.
+Then open `http://localhost:4000/` in your browser.

@@ -1,0 +1,16 @@
+title: Foobarcat
+description: >-
+  The technical blog and home of Matthew Ault (Foobarcat)
+url: "https://foobarcat.com"
+baseurl: ""
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title.html
+
+plugins:
+  - jekyll-feed
+
+author:
+  name: "Matthew Ault"
+  homepage: "https://foobarcat.com"
+  linkedin: "https://www.linkedin.com/in/m-ault/"

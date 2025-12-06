@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="page">
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}">Writing</a></li>
+        <li><a href="{{ '/consulting/' | relative_url }}">Consulting</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <article>
+        <p class="back-link">
+          <a href="{{ '/blog/' | relative_url }}">&larr; Back to all articles</a>
+        </p>
+        <h1>{{ page.title }}</h1>
+        <p><small>Published on {{ page.date | date: "%B %d, %Y" }}</small></p>
+        <p class="post-author">
+          By {{ site.author.name }}
+          {% if site.author.linkedin %}
+            · <a href="{{ site.author.linkedin }}">LinkedIn</a>
+          {% endif %}
+          {% if site.author.homepage %}
+            · <a href="{{ site.author.homepage }}">Homepage</a>
+          {% endif %}
+        </p>
+        {{ content }}
+      </article>
+    </main>
+  </div>
+</body>
+</html>
