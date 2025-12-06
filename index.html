@@ -71,11 +71,12 @@
         }
         @media (max-width: 480px) {
             body {
-                /* Use dynamic viewport height so content stays centered
-                   without introducing extra scroll from browser UI chrome */
-                min-height: 100dvh;
-                padding-top: 2rem;
-                padding-bottom: 2rem;
+                /* Let the page size itself naturally on mobile to avoid
+                   jumpy behaviour from viewport height changes, and
+                   approximate centering with padding instead. */
+                min-height: auto;
+                padding-top: 3.5rem;
+                padding-bottom: 3rem;
             }
             nav ul {
                 gap: 16px;
