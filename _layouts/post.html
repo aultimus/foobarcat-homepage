@@ -5,6 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 3rem;
+    }
+    nav ul {
+      list-style: none;
+      padding: 1.2rem 0;
+      margin: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      border-bottom: 1px solid #333;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #61dafb;
+      transition: color 0.3s;
+      font-size: 0.95em;
+    }
+    nav ul li a:hover {
+      color: #21a1f1;
+    }
+    h1 {
+      margin-top: 1.8rem;
+      margin-bottom: 0.75rem;
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      line-height: 1.6;
+      color: #dddddd;
+    }
+    ul {
+      line-height: 1.6;
+      padding-left: 1.2rem;
+    }
+  </style>
 </head>
 <body>
   <div class="page">
@@ -30,9 +83,6 @@
           By {{ site.author.name }}
           {% if site.author.linkedin %}
             · <a href="{{ site.author.linkedin }}">LinkedIn</a>
-          {% endif %}
-          {% if site.author.homepage %}
-            · <a href="{{ site.author.homepage }}">Homepage</a>
           {% endif %}
         </p>
         {{ content }}
