@@ -55,8 +55,10 @@
         }
         @media (max-width: 480px) {
             body {
-                min-height: auto;
-                padding-top: 3rem;
+                /* Use dynamic viewport height so content stays centered
+                   without introducing extra scroll from browser UI chrome */
+                min-height: 100dvh;
+                padding-top: 2rem;
                 padding-bottom: 2rem;
             }
             nav ul {
