@@ -58,6 +58,29 @@
       padding-left: 1.2rem;
     }
 
+    /* Post content overflow safety */
+    article img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem 0;
+    }
+    article table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.95em;
+      display: block;
+      overflow-x: auto;
+    }
+    article pre {
+      max-width: 100%;
+      overflow-x: auto;
+      padding: 0.75rem;
+      background: #181818;
+      border-radius: 4px;
+    }
+
     @media (max-width: 480px) {
       body {
         min-height: auto;
