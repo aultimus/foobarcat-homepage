@@ -3,19 +3,9 @@ layout: post
 title: "Security vs Engineering - Competing Incentives"
 ---
 
-This morning I tried to upload a custom camera-firmware build via Slack to unblock a colleague. Instead of a normal upload, Slack responded with:
+I’ve seen a familiar pattern play out repeatedly in modern software organisations. An engineer needs to share a compiled artefact to unblock work. The most direct channel is restricted by security controls. Approved alternatives exist, but introduce enough friction that work slows and informal workarounds become tempting.
 
-
-!['Your file couldn't be uploaded:This file may contain a virus or other malware and can’t be uploaded to Slack.']({{ site.baseurl }}/images/slack_file_upload_error.png)
-
-
-A workplace admin had seemingly disabled binary uploads to slack. 
-I tried renaming the file: blocked.  
-I tried zipping it: blocked.
-
-So I explored alternatives. After a short detour into external tools and public file-sharing services, it became clear that many of the quickest options were actually **less secure** than simply letting engineers share binaries via slack. The “approved” options — enterprise shared drives and permission-managed portals — were workable but cumbersome. What should have been a routine 10-second action turned into a small productivity sink.
-
-Rather than treat this as a complaint, I realised it’s a clean, real-world illustration of a broader dynamic: **how misaligned incentives inside an organisation can produce outcomes nobody intended.**
+This is not a failure of individuals. It is an example of **how misaligned incentives inside an organisation can produce outcomes nobody intended.**
 
 Consider the two functions involved:
 
