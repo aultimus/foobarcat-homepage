@@ -9,3 +9,8 @@ a:hover {
   color: #21a1f1;
   text-decoration: underline;
 }
+
+hr {
+  margin-top: 2.75rem;
+  margin-bottom: 2.75rem;
+}
