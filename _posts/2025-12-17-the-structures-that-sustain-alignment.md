@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Incentives: The Core Pillars of Alignment"
+title: "The Structures That Sustain Alignment"
 ---
 
 Most organisations do not fail for lack of talent or good intentions.
