@@ -5,7 +5,7 @@ title: "Building the Baconometer"
 
 ## Introduction
 
-The Baconometer is a playful yet technically interesting web app that answers the question: _how connected are two actors through shared films?_ Inspired by the "Six Degrees of Kevin Bacon" game, the app computes the shortest path of collaboration between actors using movie credits. At the time of writing the baconometer is hosted [here] (https://baconometer.foobarcat.com). The baconometer is inspired by venerable [oracle of bacon](https://oracleofbacon.org/).
+The Baconometer is a playful yet technically interesting web app that answers the question: _how connected are two actors through shared films?_ Inspired by the "Six Degrees of Kevin Bacon" game, the app computes the shortest path of collaboration between actors using movie credits. At the time of writing the baconometer is hosted [here](https://baconometer.foobarcat.com) and the code is available [here](https://github.com/aultimus/baconometer). The baconometer is inspired by venerable [oracle of bacon](https://oracleofbacon.org/).
 
 This post outlines how the Baconometer was designed and built - from database selection, and service development to deployment strategy.
 
