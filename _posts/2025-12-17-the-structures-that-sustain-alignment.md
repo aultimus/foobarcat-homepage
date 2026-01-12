@@ -7,10 +7,7 @@ Most organisations do not fail for lack of talent or good intentions.
 
 They fail because the systems around them quietly reward the wrong behaviours.
 
-In the first two parts of this series, I examined how incentives shape behaviour, and how misaligned incentives lead to friction, Drift, and unintended outcomes. Not through malice or incompetence, but through ordinary, rational responses to the systems people operate within. Those previous articles are available here:
-
-- [Security vs Engineering - Competing Incentives](/2025-11-19-competing-incentives)
-- [Incentives: The True Architecture of Organisations](/2025-12-03-incentives-the-true-architecture-of-organisations)
+In the first two parts of this series, I examined how incentives shape behaviour, and how misaligned incentives lead to friction, Drift, and unintended outcomes. Not through malice or incompetence, but through ordinary, rational responses to the systems people operate within. Part 1 is available [here]({% post_url 2025-11-19-competing-incentives %}) and part 2 is available [here]({% post_url 2025-12-03-incentives-the-true-architecture-of-organisations %}).
 
 If incentives reliably shape outcomes, then they are not a cultural detail or an HR concern. They form the foundation of organisational architecture.
 
