@@ -33,6 +33,8 @@ To solve this, I wrote a custom TMDB crawler that recursively traverses the API:
 
 This strategy incrementally builds a usable actor–film–actor graph suitable for import into Neo4j. The crawler is available here: [tmdb-crawler](https://github.com/aultimus/tmbd-crawler).
 
+---
+
 ## Design Decisions
 
 ### Database
@@ -60,8 +62,6 @@ But the Baconometer is fundamentally a graph problem:
 | **Deployment complexity**           | Requires Neo4j server setup                          | Easier and more portable with PostgreSQL/MySQL         |
 | **Maturity / portability**          | Newer technology, evolving standards                 | Mature, portable, and widely adopted                   |
 
----
-
 - The oracle of bacon uses **recursive CTEs** to compute paths between actors.
 - The system works well because:
   - The dataset is relatively small.
@@ -83,7 +83,7 @@ Choose SQL when:
 - You prioritize ease of deployment and cost.
 - Your team is experienced with SQL and relational tooling.
 
-#### Conclusion
+### Conclusion
 
 The Baconometer benefits from **Neo4j’s graph-native capabilities**, allowing it to perform efficient shortest-path queries with readable, maintainable code.
 
@@ -101,6 +101,8 @@ RETURN path
 ```
 This made it a natural choice for the core database.
 
+---
+
 ### Server Software
 Python was chosen for its ecosystem and familiarity. Flask, in particular, is:
 
@@ -109,6 +111,8 @@ Python was chosen for its ecosystem and familiarity. Flask, in particular, is:
 - Good enough for serving a simple API and UI
 - I wanted to practice my python and flask skills
 
+---
+
 ## Service Implementation
 
 The Baconometer is a simple web app with a single page and a single API endpoint. The API endpoint is a Flask route that takes two actor names as input and returns the shortest path between them.
@@ -116,6 +120,8 @@ The Baconometer is a simple web app with a single page and a single API endpoint
 I added scripts that enable bootstrapping the neo4j database from either IMDB or TMDB datasets.
 
 I added system tests to validate the API endpoint.
+
+---
 
 ## Hosting and Deployment
 Initially, I considered managed Neo4j services, but they were expensive and restrictive. I wanted full control over the database and filesystem, especially during debugging and import.
@@ -127,6 +133,8 @@ After evaluating AWS, GCP, and some PaaS platforms, I settled on Hetzner Cloud:
 - Good hardware performance for the price
 
 Hetzner was much more affordable than AWS and co.
+
+---
 
 ### Deployment Setup
 The deployment architecture is minimal and simple:
@@ -142,6 +150,8 @@ Deployment steps were handled via a small Bash script and manual provisioning fo
 
 - Dockerizing the whole deployment stack
 - CI/CD hooks for auto-deploy
+
+---
 
 ## Conclusion
 The Baconometer is a great example of choosing the right tool for the problem. Graphs are a natural fit, and Neo4j's expressiveness made the core logic simple. Flask and Python provided a productive backend environment, and Hetzner offered low-cost flexibility for deployment.
