@@ -8,7 +8,7 @@ Reliability is often framed as a problem to be solved with more discipline, bett
 
 Reliability work, whilst widely recognised as essential, has the defining property that its successes are largely invisible. Consider goalkeeping in football, which shares this property. In football, goals prevented don’t appear on the scoreboard, while goals scored do. Organisations that optimise for visible progress naturally overweight the observable and underweight the preventative work.
 
-'Attack wins you games, but defence wins you titles' - Alex Ferguson
+> _Attack wins you games, but defence wins you titles._ — Alex Ferguson
 
 The best teams resolve this not by choosing defence over attack, but by defending in depth, that is, diffusing defensive responsibility across the whole team. With this strategy applied to reliability, reliability stops being a specialised activity and becomes a shared property of the system — even the teams focused on delivery contribute to its defensive posture.
 
