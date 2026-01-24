@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why Reliability Is Structurally Undervalued"
+title: "Why Reliability is Structurally Undervalued"
 date: 2026-01-12
 ---
 

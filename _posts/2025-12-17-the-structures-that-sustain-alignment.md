@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Properties That Sustain Alignment"
+title: "The Properties that Sustain Alignment"
 ---
 
 Most organisations do not fail for lack of talent or good intentions.
