@@ -4,7 +4,7 @@ title: "The Structural Nature of Ownership"
 date: 2026-01-24
 ---
 
-Ownership is one of the most frequently evoked concepts in modern organisations. But as is often the case with continued repetition, it has a way of degrading meaning over time, resulting in imprecise usage and fragmented understanding. Teams are said to "own" services, systems, and outcomes, with the expectation that this will produce deeper investment, better judgement, and more durable results — yet this rarely materialises in practice. As a result, organisations frequently believe they have solved the problem of ownership — while continuing to experience the same failures they expected it to resolve.
+Ownership is one of the most frequently evoked concepts in modern organisations. But as is often the case with continued repetition, it has a way of degrading meaning over time, resulting in imprecise usage and fragmented understanding. Teams are said to "own" services, systems, and outcomes, with the expectation that this will produce deeper investment, better judgement, and more durable success — yet this rarely materialises in practice. As a result, organisations frequently believe they have solved the problem of ownership — while continuing to experience the same failures they expected it to resolve.
 
 The issue is not that ownership is absent, but that the forms of ownership commonly assigned fail to hold under pressure. Teams are designated as owners, responsibilities are documented, escalation paths exist, and effort is expended in good faith — yet these structures rarely survive moments of real stress. This points to a structural problem rather than a failure of intent, clarity, or care.
 
