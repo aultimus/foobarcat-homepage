@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Structural Ownership Defined"
+title: "The Structural Nature of Ownership"
 date: 2026-01-24
 ---
 
