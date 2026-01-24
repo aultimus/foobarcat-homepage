@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Security vs Engineering - Competing Incentives"
+title: "Security and Engineering - Competing Incentives"
 ---
 
 I’ve seen a familiar pattern play out repeatedly in modern software organisations. An engineer needs to share a compiled artefact to unblock work. The most direct channel is restricted by security controls. Approved alternatives exist, but introduce enough friction that work slows and informal workarounds become tempting.
