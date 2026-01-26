@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Structural Nature of Ownership"
+title: "What Ownership Actually Means"
 date: 2026-01-24
 ---
 
