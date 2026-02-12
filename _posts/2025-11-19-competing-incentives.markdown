@@ -12,9 +12,8 @@ This is not a failure of individuals. It is an example of **how misaligned incen
 Consider the two functions involved:
 
 - **Engineering**, incentivised to move quickly, unblock teammates, ship features and provide value to the user.
-    
-- **Security**, incentivised to reduce risk and prevent incidents.
-    
+
+- **Security**, incentivised to reduce risk and prevent incidents.  
 
 Both incentives are legitimate. Both responsibilities matter. But they naturally pull in different directions. And when a policy like “block all binaries” is introduced, the tradeoff becomes asymmetric:
 
