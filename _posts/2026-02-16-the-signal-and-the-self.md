@@ -8,7 +8,7 @@ Organisations can transform internally while the world continues to see the olde
 
 The same dynamic applies to individuals.
 
-At any moment, a person exists in two forms: the internal self and the external signal that they emit. The self evolves continuously — through experience, practice and reflection. The signal lags behind.
+At any moment, a person exists in two forms: the internal self and the external signal that they emit. The self evolves continuously — through experience, practice and reflection. The signal, by contrast, updates in discrete acts of expression.
 
 Signal is composed of visible components that compress the complex self into legible forms. Roles are one such example that is infrequently updated and somewhat persistent. The role “doctor” immediately conjures connotations of competence, education and discernment. An individual may possess these traits without holding the title, yet without that socially legible container they are not easily recognised.
 
@@ -44,5 +44,4 @@ The signal lags the self. Whilst signal will always be imperfect, it need not be
 
 Few domains are as accessible or offer as high leverage signal engineering as dress. Viewed structurally then, clothing is not vanity. It is calibration.
 
-Sextant is an experiment in treating signal lag in style as an engineering problem.
-
+[Sextant](https://foobarcat.com/projects) is an experiment in treating signal lag in style as an engineering problem.
