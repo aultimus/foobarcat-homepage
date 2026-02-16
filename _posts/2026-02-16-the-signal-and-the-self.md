@@ -16,7 +16,7 @@ Signal is only an approximation of the self. Like any form of compression, it ca
 
 ---
 
-Humans naturally evolve their internal self faster than they update their external signal. Careers shift, ambitions sharpen, values refine. But the signal components — clothing, presentation, public work — often remain aligned with an earlier version of the self. This is because **signal is a lagging indicator of the self**.
+Humans naturally develop their internal self faster than they update their external signal. Values evolve, priorities shift, and judgement matures. But the signal components — clothing, presentation and public work — often remain aligned with an earlier version of the self. This is because **signal is a lagging indicator of the self**.
 
 The self is high resolution, non-visible, and unique. Our ability to categorise an individual rapidly based on visible cues are efficient social heuristics that developed evolutionarily out of necessity over thousands of years. It is a valuable adaptation enabling rapid navigation of complex social environments.
 
