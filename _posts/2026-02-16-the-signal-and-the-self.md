@@ -12,7 +12,7 @@ At any moment, a person exists in two forms: the internal self and the external 
 
 Signal is composed of visible components that compress the complex self into legible forms. Roles are one such example that is infrequently updated and somewhat persistent. The role “doctor” immediately conjures connotations of competence, education and discernment. An individual may possess these traits without holding the title, yet without that socially legible container they are not easily recognised.
 
-Signal is only an approximation of the self. Like any compression process, it is inherently lossy; aspects of the self may not survive the compression process.
+Signal is only an approximation of the self. Like any form of compression, it can be lossy; aspects of the self may not survive the process.
 
 ---
 
