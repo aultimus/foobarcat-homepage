@@ -70,7 +70,7 @@ Incentives are often treated as a secondary concern — something to be adjusted
 
 Across this series, the pattern has been consistent. Misaligned incentives produce friction, Drift, and unintended outcomes. Aligned incentives, by contrast, create coherence. They reduce the need for supervision, simplify decision-making, and increase organisational efficiency.
 
-What distinguishes organisations that remain effective over time is not exceptional people or perfectly articulated values, but design discipline. They pay attention to ownership, clarity, flow, feedback, and autonomy, not as slogans, but as design constraints.
+What distinguishes organisations that remain effective over time is not talent or values alone, but structural discipline. They pay attention to ownership, clarity, flow, feedback, and autonomy, not as slogans, but as design constraints.
 
 Incentives, then, are not a soft concern or a managerial afterthought. They are the quiet architecture of human behaviour. When designed deliberately, success is structurally favoured rather than left to chance.
 
