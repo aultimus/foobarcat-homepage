@@ -20,6 +20,8 @@ Humans naturally develop their internal self faster than they update their exter
 
 The self is high resolution, non-visible, and unique. Our ability to categorise an individual rapidly based on visible cues are efficient social heuristics that developed evolutionarily out of necessity over thousands of years. It is a valuable adaptation enabling rapid navigation of complex social environments.
 
+The self is high resolution, non-visible, and unique. Our ability to categorise an individual rapidly based on visible cues is due to the efficient social heuristics that developed evolutionarily out of necessity over thousands of years. It is a valuable adaptation enabling rapid classification of individuals and navigation of complex social environments.
+
 Lag persists because internal change takes time and effort to propagate and translate into external signal. And because the process of compression and legible public expression can be risky. It risks social misinterpretation or revaluation which could result in a loss of social status. But if left unaddressed, that lag produces persistent misclassification.
 
 ---
