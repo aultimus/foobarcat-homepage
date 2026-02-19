@@ -14,7 +14,7 @@ Yet within minutes of seeing it, I remember thinking: this won't catch on.
 
 ---
 
-It wasn’t that the technology wouldn’t work. The fridge was technically impressive, it could scan items, provide an inventory remotely, re-order items automatically, it could even potentially tell you how they could be combined. The real issue is that it was solving the wrong problem.
+It wasn’t that the technology wouldn’t work. The fridge was technically impressive, it could scan, catalogue and automatically re-order items. It could even enumerate item combinations for recipes. The real issue is that it was solving the wrong problem.
 
 The real modern pain point with groceries and cooking is not stock optimisation. The logistical pain of groceries was largely solved decades ago — by cars, supermarkets, and later online ordering. The pain today is not "I don't know if I have carrots" or "I have to go and get milk". The pain is: "What should I eat?", "Is this worth my time to cook given my constraints?" and "What aligns with my goals?". The fridge of the future isolated cooking from context.
 
@@ -30,7 +30,7 @@ Systems that misclassify identity problems as logistics problems often struggle 
 
 The same mistake appears whenever we try to make life 'smart' by tracking more, counting more, and optimising more — without asking what decision we are trying to make or what problem we are really trying to solve. The failure is centring data itself and not the decisions that it empowers.
 
-Technical sophistication alone is not a reliable indicator of product success. More importantly, the friction that the product resolves must be proportional to leverage it provides. That value provided by the product must be surfaced sufficiently early to be legible to users. And not be gated behind a gauntlet of data collection and onboarding before it can be realised.
+Technical sophistication alone is not a reliable indicator of product success. A product’s leverage must outweigh the friction it introduces, and that leverage must be visible early. If value is gated behind a gauntlet of onboarding and data collection, adoption will stall.
 
 ---
 
