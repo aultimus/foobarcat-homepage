@@ -4,11 +4,9 @@ title: "The Signal and the Self"
 date: 2026-02-16
 ---
 
-Organisations can transform internally while the world continues to see the older version. Leadership changes, strategy evolves, culture adapts — yet external interpretation updates more slowly.
+A person can change long before it becomes visible to others.
 
-The same dynamic applies to individuals.
-
-At any moment, a person exists in two forms: the internal self and the external signal that they emit. The self evolves continuously — through experience, practice and reflection. The signal, by contrast, updates in discrete acts of expression.
+This is because, at any moment, a person exists in two forms: the internal self and the external signal that they emit. The self evolves continuously — through experience, practice and reflection. The signal, by contrast, updates in discrete acts of expression.
 
 Signal is composed of visible components that compress the complex self into legible forms. Roles are one such example that is infrequently updated and somewhat persistent. The role “doctor” immediately conjures connotations of competence, education and discernment. An individual may possess these traits without holding the title, yet without that socially legible container they are not easily recognised.
 
