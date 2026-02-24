@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Ownership Actually Means"
+title: "What Ownership Really Means"
 date: 2026-01-24
 ---
 
