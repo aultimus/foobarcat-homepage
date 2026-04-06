@@ -42,4 +42,4 @@ The signal lags the self. Whilst signal will always be imperfect, it need not be
 
 Few domains are as accessible or offer as high leverage signal engineering as dress. Viewed structurally then, clothing is not vanity. It is calibration.
 
-[Sextant](https://foobarcat.com/projects) is an experiment in treating signal lag in style as an engineering problem.
+[Sextant](https://sextantapp.io) is an experiment in treating signal lag in style as an engineering problem.
