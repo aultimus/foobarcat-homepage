@@ -86,7 +86,7 @@ They can seek to reduce coupling and make teams and individuals as autonomous as
 
 They can provide explicit authority to make changes based on initiative through the culture of the engineering organisation. *'Move fast and break things'* espoused by Zuckerberg at Facebook did just that.
 
-They can directly incentivise initiative. As was established in my previous article - [Incentives - The True Architecture of Organisations]({% post_url 2025-12-03-incentives-the-true-architecture-of-organisations %}), engineers follow organisational incentives. Therefore, if initiative is rewarded at the organisational level, the behaviour will become more prevalent. A concrete example of this is including demonstrations of initiative in levelling panels and promotion conversations.
+They can directly incentivise initiative. As was established in my previous article - [Incentives: The True Architecture of Organisations]({% post_url 2025-12-03-incentives-the-true-architecture-of-organisations %}), engineers follow organisational incentives. Therefore, if initiative is rewarded at the organisational level, the behaviour will become more prevalent. A concrete example of this is including demonstrations of initiative in levelling panels and promotion conversations.
 
 Lastly, they can reduce the cost of local action. By reducing developer friction, making it easy to contribute, deploy, monitor and rollback across codebases, the engineering organisation can reduce the activation energy needed for the application of initiative.
 
