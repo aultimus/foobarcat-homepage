@@ -43,6 +43,8 @@ This behaviour is best summarised as **initiative** - **acting without explicit 
 
 When judgement and decision making power are devolved closer to the source of information, several effects occur. The cost of co-ordination is circumvented, reducing time spent communicating. This results in improved adaptability to emergent information and increased decision velocity.  In combination with low coupling and low cost of action, initiative becomes intrinsically rewarding. Engineers receive immediate feedback, operate within bounded risk, and avoid costly coordination overhead. This creates a tight action–feedback loop that is both efficient and cognitively satisfying.
 
+---
+
 Whilst initiative has clear benefits, it is important that it is **constrained** and **bounded**, because unrestrained initiative can harm **coherence**.
 
 Initiative requires constraints so that it does not result in fragmentation. For example different engineers may favour different implementations, resulting in a lack of consistency of approach. Teams can resolve this by aligning upon constraints - such as common patterns first.
@@ -80,22 +82,21 @@ Where initiative provides adaptation, centralisation of decision making provides
 
 Initiative is especially valuable in startup environments. Startups are environments where uncertainty is prevalent, adaptation to new information is paramount and the sooner an assumption can be tested against reality, the better. They are environments where decision velocity has primacy. And in such a small organisation, resolving resulting drift is tractable. Startups are almost perfect environments for the application of initiative.
 
-An organisation can do several things to promote initiative.
+An organisation can do several things to promote initiative:
+1. They can seek to reduce coupling and make teams and individuals as autonomous as possible. Strategies to achieve this range from cross-functional teams to self-serve processes that reduce required coordination and unblock engineers.
 
-They can seek to reduce coupling and make teams and individuals as autonomous as possible. Strategies to achieve this range from cross-functional teams to self-serve processes that reduce required coordination and unblock engineers.
+2. They can provide explicit authority to make changes based on initiative through the culture of the engineering organisation. *'Move fast and break things'* espoused by Zuckerberg at Facebook did just that.
 
-They can provide explicit authority to make changes based on initiative through the culture of the engineering organisation. *'Move fast and break things'* espoused by Zuckerberg at Facebook did just that.
+3. They can directly incentivise initiative. As was established in my previous article - [Incentives: The True Architecture of Organisations]({% post_url 2025-12-03-incentives-the-true-architecture-of-organisations %}), engineers follow organisational incentives. Therefore, if initiative is rewarded at the organisational level, the behaviour will become more prevalent. A concrete example of this is including demonstrations of initiative in levelling panels and promotion conversations.
 
-They can directly incentivise initiative. As was established in my previous article - [Incentives: The True Architecture of Organisations]({% post_url 2025-12-03-incentives-the-true-architecture-of-organisations %}), engineers follow organisational incentives. Therefore, if initiative is rewarded at the organisational level, the behaviour will become more prevalent. A concrete example of this is including demonstrations of initiative in levelling panels and promotion conversations.
-
-Lastly, they can reduce the cost of local action. By reducing developer friction, making it easy to contribute, deploy, monitor and rollback across codebases, the engineering organisation can reduce the activation energy needed for the application of initiative.
+4. Lastly, they can reduce the cost of local action. By reducing developer friction, making it easy to contribute, deploy, monitor and rollback across codebases, the engineering organisation can reduce the activation energy needed for the application of initiative.
 
 These measures will have the effects of empowering initiative, accelerating decision making velocity and making teams more adaptable to evolving information, allowing the organisation itself to become more responsive. It also changes how engineers experience the work. When action is cheap, reversible, and and feedback loops are short, engineers are more willing to engage, experiment, and take ownership.
 
 ---
 
-Adaptability is essential when dealing with systems facing uncertainty.
+Adaptability is essential when dealing with systems facing uncertainty. Initiative can be leveraged to provide this capability. Initiative emerges when decision-making authority is pushed closer to the source of information.
 
-Adaptation can emerge as initiative when decision-making authority is pushed closer to the emergence of information. Software engineering and startups in particular are ideal environments for the application of initiative. Implemented correctly with constraints and bounds initiative allows engineering organisations to maintain decision velocity in the face of uncertainty and energise engineers.
+When initative is promoted with clear constraints and bounds it allows engineering organisations to maintain decision velocity in the face of uncertainty and to energise engineers.
 
 **initiative then is not a virtue, it is an emergent property of system design**
