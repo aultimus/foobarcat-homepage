@@ -92,9 +92,9 @@ Lastly, they can reduce the cost of local action. By reducing developer friction
 
 These measures will have the effects of empowering initiative, accelerating decision making velocity and making teams more adaptable to evolving information, allowing the organisation itself to become more responsive. It also changes how engineers experience the work. When action is cheap, reversible, and and feedback loops are short, engineers are more willing to engage, experiment, and take ownership.
 
-## Conclusion
+---
 
-Adaptation is a powerful force when dealing with systems facing uncertainty.
+Adaptability is essential when dealing with systems facing uncertainty.
 
 Adaptation can emerge as initiative when decision-making authority is pushed closer to the emergence of information. Software engineering and startups in particular are ideal environments for the application of initiative. Implemented correctly with constraints and bounds initiative allows engineering organisations to maintain decision velocity in the face of uncertainty and energise engineers.
 
