@@ -99,4 +99,4 @@ Adaptability is essential when dealing with systems facing uncertainty. Initiati
 
 When initative is promoted with clear constraints and bounds it allows engineering organisations to maintain decision velocity in the face of uncertainty and to energise engineers.
 
-**initiative then is not a virtue, it is an emergent property of system design**
+**initiative then is not a virtue, it is an emergent property of system design**.
