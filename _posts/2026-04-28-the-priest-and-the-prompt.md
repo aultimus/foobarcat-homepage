@@ -13,6 +13,7 @@ It doesn't look like judgement or authority. It looks like help.
 Over the course of months what began as help broadens. The AI assistant supplies frames, names emotions, counsels restraint, interprets events. It even starts to nudge his sense of what is kind, what is extreme, what is mature, what is balanced, and ultimately what is right and wrong.
 
 The question that presents itself is:
+
 > What kind of institution is this, if millions of people increasingly use it to interpret themselves and the world?
 
 The answer may be something structurally closer to a priest than a prompt.
@@ -37,7 +38,7 @@ The model answers by supplying moral vocabulary, psychological framing, implicit
 
 The important point is that:
 
-> AI does not merely retrieve information. It mediates meaning.
+**AI does not merely retrieve information. It mediates meaning.**
 
 Thus it performs a priest-like function.
 
